@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="io.sloeber.core.toolChain.release.761495141">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="io.sloeber.core.toolChain.release.761495141" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="io.sloeber.core.toolChain.release.761495141" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="io.sloeber.core.toolChain.release.761495141.1598308773" name="/" resourcePath="">
+						<toolChain id="io.sloeber.core.toolChain.release.1460295882" name="Arduino Toolchain( Sloeber edition)" superClass="io.sloeber.core.toolChain.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform.1825391475" name="Arduino Target" osList="all" superClass="io.sloeber.targetplatform"/>
+							<builder buildPath="${workspace_loc:/Otto}/Release" id="io.sloeber.sketch.builder.1540138925" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Arduino sketch builder" superClass="io.sloeber.sketch.builder"/>
+							<tool id="io.sloeber.tool.sketch.compiler.cpp.1092813078" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp">
+								<option id="io.sloeber.compiler.cpp.sketch.option.incpath.291593493" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/BatReader}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/MaxMatrix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/US}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Oscillator}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/OttoSerialCommand}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Otto}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.cpp.sketch.input.117547487" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.compiler.c.210688259" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c">
+								<option id="io.sloeber.compiler.c.sketch.option.incpath.846470190" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/BatReader}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/MaxMatrix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/US}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Oscillator}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/OttoSerialCommand}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Otto}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.c.sketch.input.246152605" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.sketch.compiler.s.2043144040" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s">
+								<option id="io.sloeber.compiler.asm.sketch.option.incpath.1163019066" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/BatReader}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/MaxMatrix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/US}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Oscillator}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/OttoSerialCommand}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Otto}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.S.sketch.input.1167956432" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.ar.936244455" name="Arduino archiver" superClass="io.sloeber.tool.ar"/>
+							<tool id="io.sloeber.tool.combine.179937022" name="Arduino combiner" superClass="io.sloeber.tool.combine"/>
+							<tool id="io.sloeber.tool.objcopy.eep.413873" name="Arduino tool objcopy command" superClass="io.sloeber.tool.objcopy.eep"/>
+							<tool id="io.sloeber.tool.size.1879523601" name="Arduino tool Print Size" superClass="io.sloeber.tool.size"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="io.sloeber.core.toolChain.release.761495141.1988939659" name="/" resourcePath="libraries">
+						<toolChain id="io.sloeber.core.toolChain.release.1270261394" name="Arduino Toolchain( Sloeber edition)" superClass="io.sloeber.core.toolChain.release" unusedChildren="">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform" name="Arduino Target" osList="all" superClass="io.sloeber.targetplatform"/>
+							<tool id="io.sloeber.tool.sketch.compiler.cpp.491869158" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp.1092813078">
+								<option id="io.sloeber.compiler.cpp.sketch.option.incpath.1650234729" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/BatReader}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/MaxMatrix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/US}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Oscillator}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/OttoSerialCommand}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Otto}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.cpp.sketch.input.1249477156" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.compiler.c.2013539162" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c.210688259">
+								<option id="io.sloeber.compiler.c.sketch.option.incpath.1382450679" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/BatReader}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/MaxMatrix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/US}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Oscillator}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/OttoSerialCommand}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Otto}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.c.sketch.input.1057145385" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.sketch.compiler.s.2143206788" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s.2043144040">
+								<option id="io.sloeber.compiler.asm.sketch.option.incpath.657264562" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/BatReader}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/MaxMatrix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/US}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Oscillator}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/OttoSerialCommand}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Otto}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.S.sketch.input.682528209" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.ar.2037554221" name="Arduino archiver" superClass="io.sloeber.tool.ar.936244455"/>
+							<tool id="io.sloeber.tool.combine.347081480" name="Arduino combiner" superClass="io.sloeber.tool.combine.179937022"/>
+							<tool id="io.sloeber.tool.objcopy.eep.641155619" name="Arduino tool objcopy command" superClass="io.sloeber.tool.objcopy.eep.413873"/>
+							<tool id="io.sloeber.tool.size.2037520890" name="Arduino tool Print Size" superClass="io.sloeber.tool.size.1879523601"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="io.sloeber.core.toolChain.release.761495141.1516768376" name="/" resourcePath="libraries/Oscillator">
+						<toolChain id="io.sloeber.core.toolChain.release.38492768" name="Arduino Toolchain( Sloeber edition)" superClass="io.sloeber.core.toolChain.release" unusedChildren="">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform" name="Arduino Target" osList="all" superClass="io.sloeber.targetplatform"/>
+							<tool id="io.sloeber.tool.sketch.compiler.cpp.2034230199" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp.1092813078">
+								<option id="io.sloeber.compiler.cpp.sketch.option.incpath.1295103140" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/BatReader}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/MaxMatrix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/US}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Oscillator}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/OttoSerialCommand}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Otto}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.cpp.sketch.input.873437773" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.compiler.c.1259108738" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c.210688259">
+								<option id="io.sloeber.compiler.c.sketch.option.incpath.2081419244" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/BatReader}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/MaxMatrix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/US}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Oscillator}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/OttoSerialCommand}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Otto}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.c.sketch.input.119336312" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.sketch.compiler.s.729449687" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s.2043144040">
+								<option id="io.sloeber.compiler.asm.sketch.option.incpath.1763906701" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/BatReader}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/MaxMatrix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/US}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Oscillator}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/OttoSerialCommand}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Otto}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.S.sketch.input.469794924" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.ar.202884640" name="Arduino archiver" superClass="io.sloeber.tool.ar.936244455"/>
+							<tool id="io.sloeber.tool.combine.2018818912" name="Arduino combiner" superClass="io.sloeber.tool.combine.179937022"/>
+							<tool id="io.sloeber.tool.objcopy.eep.332539143" name="Arduino tool objcopy command" superClass="io.sloeber.tool.objcopy.eep.413873"/>
+							<tool id="io.sloeber.tool.size.914760628" name="Arduino tool Print Size" superClass="io.sloeber.tool.size.1879523601"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="io.sloeber.core.toolChain.release.761495141.2073483272" name="/" resourcePath="libraries/Otto">
+						<toolChain id="io.sloeber.core.toolChain.release.481553242" name="Arduino Toolchain( Sloeber edition)" superClass="io.sloeber.core.toolChain.release" unusedChildren="">
+							<tool id="io.sloeber.tool.sketch.compiler.cpp.1239484617" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp.491869158">
+								<inputType id="io.sloeber.compiler.cpp.sketch.input.1520406400" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.compiler.c.1158187437" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c.2013539162">
+								<inputType id="io.sloeber.compiler.c.sketch.input.1495406411" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.sketch.compiler.s.87293485" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s.2143206788">
+								<inputType id="io.sloeber.compiler.S.sketch.input.1373491537" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.ar.1179612480" name="Arduino archiver" superClass="io.sloeber.tool.ar.2037554221"/>
+							<tool id="io.sloeber.tool.combine.434734057" name="Arduino combiner" superClass="io.sloeber.tool.combine.347081480"/>
+							<tool id="io.sloeber.tool.objcopy.eep.116121538" name="Arduino tool objcopy command" superClass="io.sloeber.tool.objcopy.eep.641155619"/>
+							<tool id="io.sloeber.tool.size.433380175" name="Arduino tool Print Size" superClass="io.sloeber.tool.size.2037520890"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="io.sloeber.core.toolChain.release.761495141.2089528706" name="/" resourcePath="libraries/OttoSerialCommand">
+						<toolChain id="io.sloeber.core.toolChain.release.1948452945" name="Arduino Toolchain( Sloeber edition)" superClass="io.sloeber.core.toolChain.release" unusedChildren="">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform" name="Arduino Target" osList="all" superClass="io.sloeber.targetplatform"/>
+							<tool id="io.sloeber.tool.sketch.compiler.cpp.318035963" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp.1092813078">
+								<option id="io.sloeber.compiler.cpp.sketch.option.incpath.348559875" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/BatReader}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/MaxMatrix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/US}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Oscillator}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/OttoSerialCommand}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Otto}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.cpp.sketch.input.261837049" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.compiler.c.696604595" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c.210688259">
+								<option id="io.sloeber.compiler.c.sketch.option.incpath.1453586629" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/BatReader}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/MaxMatrix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/US}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Oscillator}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/OttoSerialCommand}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Otto}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.c.sketch.input.782461974" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.sketch.compiler.s.179985648" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s.2043144040">
+								<option id="io.sloeber.compiler.asm.sketch.option.incpath.404125994" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/BatReader}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EnableInterrupt/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/MaxMatrix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/US}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/EEPROM/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Oscillator}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Servo/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/OttoSerialCommand}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Otto/libraries/Otto}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.S.sketch.input.1679948268" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.ar.352910742" name="Arduino archiver" superClass="io.sloeber.tool.ar.936244455"/>
+							<tool id="io.sloeber.tool.combine.1734092605" name="Arduino combiner" superClass="io.sloeber.tool.combine.179937022"/>
+							<tool id="io.sloeber.tool.objcopy.eep.1671661856" name="Arduino tool objcopy command" superClass="io.sloeber.tool.objcopy.eep.413873"/>
+							<tool id="io.sloeber.tool.size.675937348" name="Arduino tool Print Size" superClass="io.sloeber.tool.size.1879523601"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="libraries|libraries/?*/**/?xamples/**|libraries/?*/**/?xtras/**|libraries/?*/**/test*/**|libraries/?*/**/third-party/**|libraries**/._*|libraries/?*/c*/?*|libraries/?*/d*/?*|libraries/?*/D*/?*" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="libraries"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="Otto.null.317918259" name="Otto"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/Otto"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>
