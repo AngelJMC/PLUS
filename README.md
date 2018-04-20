@@ -1,4 +1,5 @@
 
+
 # Otto DIY +
 "Otto DIY with steroids" 
 
@@ -10,6 +11,15 @@ Is completely open source, Arduino compatible, 3D printable, once you have all c
 This is a more advanced version requires some expertise and patience, if you want to start slow as a beginner  please go to [Otto DIY repository](https://github.com/OttoDIY/DIY)
 
 Start by downloading all files here.
+
+### Customized version
+
+This custom version includes:
+1. Lithium battery with micro USB charger and 5v step-up module.
+2. MG90S servos
+3. A touch sensor with two pushbutton.
+
+Video: https://youtu.be/i325EG5CZ8M
 
 ## For the hardware
 Gather all the off the shelf parts in the BOM file that you'll need for this assembly, then 3d print the latest .stl files and then follow the instruction manual to build your own robot.
